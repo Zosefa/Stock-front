@@ -1,0 +1,55 @@
+// src/page/NotFound/NotFound.scss
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+
+  .content-box {
+    padding: 3rem;
+    border-radius: 16px;
+    background: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size: 8rem;
+    font-weight: 800;
+    background: linear-gradient(45deg, #1976d2 0%, #2196f3 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 0.5rem;
+    line-height: 1;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+
+  .message {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+
+  .home-button {
+    background: linear-gradient(45deg, #1976d2 0%, #2196f3 100%);
+    box-shadow: 0 4px 15px rgba(25, 118, 210, 0.3);
+    transition: all 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 6px 20px rgba(25, 118, 210, 0.4);
+    }
+  }
+}
